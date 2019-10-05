@@ -1,0 +1,190 @@
+.navbar-custom {
+    background-color: #38414a;
+    -webkit-box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+    padding: 0 10px 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 70px;
+    z-index: 100;
+}
+
+.navbar-custom .topnav-menu>li {
+    float: left;
+}
+
+.navbar-custom .topnav-menu .nav-link {
+    padding: 0 15px;
+    color: rgba(255,255,255,.6);
+    min-width: 32px;
+    display: block;
+    line-height: 70px;
+    text-align: center;
+    max-height: 70px;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.notification-list .noti-icon {
+    font-size: 21px;
+    vertical-align: middle;
+}
+
+.nav-user img {
+    height: 32px;
+    width: 32px;
+}
+
+.logo-box {
+    height: 70px;
+    width: 240px;
+    float: left;
+}
+
+.logo {
+    display: block;
+    line-height: 70px;
+}
+
+.logo span.logo-lg {
+    display: block;
+}
+
+.logo span.logo-sm {
+    display: none;
+}
+
+.navbar-custom .topnav-menu>li {
+    float: left;
+}
+
+.navbar-custom .button-menu-mobile {
+    border: none;
+    color: #fff;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    width: 60px;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/****************************** Left Side Menu ******************************************/
+
+.left-side-menu {
+    width: 240px;
+    background: #fff;
+    bottom: 0;
+    padding: 20px 0;
+    position: fixed;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    top: 70px;
+    -webkit-box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+}
+
+.slimScrollDiv {
+    height: auto!important;
+}
+
+.metismenu {
+    padding: 0;
+}
+
+#sidebar-menu .menu-title {
+    padding: 10px 20px;
+    letter-spacing: .05em;
+    pointer-events: none;
+    cursor: default;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    color: #6e768e;
+    font-weight: 600;
+}
+.metismenu li {
+    list-style: none;
+}
+#sidebar-menu>ul>li>a.active {
+    color: #00acc1;
+}
+#sidebar-menu>ul>li>a {
+    color: #6e768e;
+    display: block;
+    padding: 13px 20px;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-family: "Cerebri Sans,sans-serif";
+    font-size: .95rem;
+}
+#sidebar-menu>ul>li>a i {
+    display: inline-block;
+    line-height: 1.0625rem;
+    margin: 0 10px 0 3px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+}
+#sidebar-menu>ul>li>ul {
+    padding-left: 40px;
+}
+.metismenu .collapse.in {
+    display: block;
+}
+.metismenu .collapse {
+    display: none;
+}
+.metismenu ul li {
+    width: 100%;
+}
+.nav-second-level li.active>a, .nav-third-level li.active>a {
+    color: #00acc1;
+}
+.nav-second-level li a, .nav-thrid-level li a {
+    padding: 8px 20px;
+    color: #6e768e;
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    font-size: .875rem;
+}
+#sidebar-menu>ul>li>a>span {
+    vertical-align: middle;
+}
+#sidebar-menu .menu-arrow {
+    -webkit-transition: -webkit-transform .15s;
+    transition: -webkit-transform .15s;
+    transition: transform .15s;
+    transition: transform .15s,-webkit-transform .15s;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    font-family: 'Material Design Icons';
+    text-rendering: auto;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+#sidebar-menu>ul>li>ul {
+    padding-left: 40px;
+}
+.metismenu .collapse {
+    display: none;
+}
+/****************************** Left Side Menu ******************************************/
+
