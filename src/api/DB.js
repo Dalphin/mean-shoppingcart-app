@@ -1,4 +1,3 @@
-// DB.js
 module.exports = {
-    DB: 'mongodb://localhost:27017/mean-shoppingcart-app'
- };
+    DB: 'mongodb://localhost:27017/shopping-cart'
+};
